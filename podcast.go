@@ -71,7 +71,7 @@ func New(title, link, description string,
 		Generator:     fmt.Sprintf("go podcast v%s (github.com/eduncan911/podcast)", pVersion),
 		PubDate:       parseDateRFC1123Z(pubDate),
 		LastBuildDate: parseDateRFC1123Z(lastBuildDate),
-		Language:      "en-us",
+		Language:      "ja-jp",
 
 		// setup dependency (could inject later)
 		encode: encoder,

@@ -11,6 +11,7 @@ const (
 	MOV
 	PDF
 	EPUB
+	AAC
 )
 
 const (
@@ -38,6 +39,8 @@ func (et EnclosureType) String() string {
 		return "application/pdf"
 	case EPUB:
 		return "document/x-epub"
+	case AAC:
+		return "audio/aac"
 	}
 	return enclosureDefault
 }
